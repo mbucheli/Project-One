@@ -1,0 +1,132 @@
+@media only screen and (max-width: 600px) {
+    
+    body {
+      background: rgba(133, 89, 5, 1);
+    }
+    
+    header {
+      background:rgba(51, 110, 123, 1);
+      border-radius: 11px;
+      border: 3mm solid rgba(0, 0, 0, 0.51);
+      
+    }
+    
+    h1{
+        font-size: 30px;
+        padding: 0 0 0 5px;
+        font-family: 'Righteous', cursive;
+        color: rgba(9, 9, 17, 0.64);
+    }
+    
+    form {
+        position: absolute; 
+        top: 47px; 
+        right: 10px; 
+        text-align: right; 
+        padding: 0 20px 0 0;
+    }
+    
+    input[type="text"] {
+        width: 105px; 
+        height: 25px;
+        border-radius: 10px;
+        font-family: 'Chakra Petch', sans-serif;
+        border:rgba(51, 110, 123, 1) ;
+        padding: 0 0 0 6px;
+    }
+    
+    input[type="submit"] {
+        width: 3.3em;  
+        height: 1em;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 0 0 20px 0;
+        border: .2rem solid;
+        
+    }
+    
+    main {
+        background:rgba(235, 151, 78, 1);
+        border-radius: 15px;
+        border: 4mm solid rgba(0, 0, 0, 0.51)
+        
+    }
+    
+    img {
+        display: block;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+    }
+    
+    #dish {
+        font-size: 21px;
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        background:rgba(9, 9, 17, 0.51);
+        padding: 0 15px 0 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 15px;
+        
+    }
+
+    p {
+        font-family: 'Chakra Petch', sans-serif;  
+    }
+    
+    .Instructions {
+        text-align: center;
+    }
+    
+    a {
+        padding: 0 10px 0 10px;
+        font-size: 19px;
+        color: white;
+        text-decoration: underline dotted white;
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+    }
+
+    .Ingredients {
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 0 5px 0 5px;
+        color: rgba(9, 9, 17, 0.64);
+        text-align: center;
+        font-size: 19px;
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+    }
+
+    .HealthLabels {
+        text-align: center;
+        font-size: 15px;
+        padding: 0px 5px 0 7px;
+        margin-right: 70px;
+        margin-left: 70px;
+        color: rgba(9, 9, 17, 0.64); 
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+    }
+
+    .Calories {
+        text-align: center;
+        font-size: 15px;
+        padding: 0px 5px 0 7px;
+        margin-right: 150px;
+        margin-left: 150px;
+        color: rgba(9, 9, 17, 0.64); 
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+
+    }
+
+}
+  
+  

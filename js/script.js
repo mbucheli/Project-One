@@ -19,8 +19,8 @@ function handleGetData(event) {
             $dish.text(data.hits[0].recipe.label);// these are only accessing one recipe, I need to access all of them in order to randomize recipes
             $dishPhoto.attr("src", data.hits[0].recipe.image);
             $instructions.attr("href", data.hits[0].recipe.shareAs);
-            $ingredients.text(data.hits[0].recipe.ingredientLines);
-            $labels.text(data.hits[0].recipe.healthLabels);
+            $ingredients.text(data.hits[0].recipe.ingredientLines.join(", "));
+            $labels.text(data.hits[0].recipe.healthLabels.join(", "));
             $calories.text(data.hits[0].recipe.calories);
         },
         (error) => {

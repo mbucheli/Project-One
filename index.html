@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Righteous&display=swap');
+        </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,22 +20,29 @@
         <h1>Random Chef</h1>
         <form>
             <input type="text" placeholder="Ingredients" />
-            <input type="submit" value="Random Recipe" />
+            <input type="submit" value="Enter" />
         </form>
     </header>
     <main>
-       <h3>Name of Dish: </h3>
-       <p id="dish"></p>
-       <img src="" id="dishPhoto">
-       <a href="" target="_blank" id="instructions">Instructions</a>
-       <p>Ingredients</p>
-       <p id="ingredients"></p>
-       <p>Health Labels</p>
-       <p id="labels"></p>
-       <p>Calories</p>
-       <p id="calories"></p>
+        <p id="dish"></p>
+        <img src="" id="dishPhoto">
+        <div class="Instructions">
+            <p><a href="" target="_blank" id="instructions">Instructions</a></p>
+        </div>
+        <div class="Ingredients">
+            <p>Ingredients: </p>
+            <p id="ingredients"></p>
+        </div>
+        <div class="HealthLabels">
+            <p>Health Labels: </p>
+            <p id="labels"></p>
+        </div>
+        <div class="Calories">
+            <p>Calories: </p>
+            <p id="calories"></p>
+        </div>
     </main>
-    
+
 
 </body>
 
