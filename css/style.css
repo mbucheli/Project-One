@@ -1,5 +1,5 @@
-@media only screen and (max-width: 600px) {
-    
+@media (max-width: 995px) {
+
     body {
       background: rgba(133, 89, 5, 1);
     }
@@ -8,26 +8,25 @@
       background:rgba(51, 110, 123, 1);
       border-radius: 11px;
       border: 3mm solid rgba(0, 0, 0, 0.51);
-      
     }
     
     h1{
-        font-size: 30px;
+        text-align: center;
+        font-size: 40px;
         padding: 0 0 0 5px;
         font-family: 'Righteous', cursive;
         color: rgba(9, 9, 17, 0.64);
     }
     
     form {
-        position: absolute; 
+        text-align: center; 
         top: 47px; 
         right: 10px; 
-        text-align: right; 
-        padding: 0 20px 0 0;
+        padding: 0 0 10px 0;
     }
     
     input[type="text"] {
-        width: 105px; 
+        width: 120px; 
         height: 25px;
         border-radius: 10px;
         font-family: 'Chakra Petch', sans-serif;
@@ -43,14 +42,12 @@
         border-radius: 5px;
         padding: 0 0 20px 0;
         border: .2rem solid;
-        
     }
     
     main {
         background:rgba(235, 151, 78, 1);
         border-radius: 15px;
         border: 4mm solid rgba(0, 0, 0, 0.51)
-        
     }
     
     img {
@@ -59,7 +56,7 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 500px;
-        max-height: 200px;
+        max-height: 250px;
         width: auto;
         height: auto;
     }
@@ -94,8 +91,8 @@
     }
 
     .Ingredients {
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
         padding: 0 5px 0 5px;
         color: rgba(9, 9, 17, 0.64);
         text-align: center;
@@ -108,8 +105,8 @@
         text-align: center;
         font-size: 15px;
         padding: 0px 5px 0 7px;
-        margin-right: 70px;
-        margin-left: 70px;
+        margin-right: 30px;
+        margin-left: 30px;
         color: rgba(9, 9, 17, 0.64); 
         background: rgba(66, 104, 63, 1);
         border-radius: 15px;
@@ -119,8 +116,8 @@
         text-align: center;
         font-size: 15px;
         padding: 0px 5px 0 7px;
-        margin-right: 150px;
-        margin-left: 150px;
+        margin-right: 55px;
+        margin-left: 55px;
         color: rgba(9, 9, 17, 0.64); 
         background: rgba(66, 104, 63, 1);
         border-radius: 15px;
@@ -128,5 +125,108 @@
     }
 
 }
-  
-  
+
+@media (min-width: 996px) {
+
+    body {
+        background: rgba(133, 89, 5, 1);
+    }
+      
+    header {
+        background: rgba(51, 110, 123, 1);
+        border-radius: 11px;
+        border: 3mm solid rgba(0, 0, 0, 0.51);
+    }
+
+    h1 {
+        font-size: 50px;
+        padding: 0 0 0 50px;
+        font-family: 'Righteous', cursive;
+        color: rgba(9, 9, 17, 0.64);
+    }
+
+    form {
+        position: absolute; 
+        top: 73px; 
+        right: 10px; 
+        text-align: right; 
+        padding: 0 20px 0 0;
+    }
+
+    input[type="text"] {
+        width: 220px; 
+        height: 25px;
+        border-radius: 10px;
+        font-family: 'Chakra Petch', sans-serif;
+        border:rgba(51, 110, 123, 1) ;
+        padding: 0 0 0 6px;
+    }
+
+    input[type="submit"] {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        border-radius: 5px;
+        border: .2rem solid;
+    }
+
+    main {
+        background:rgba(235, 151, 78, 1);
+        border-radius: 15px;
+        border: 4mm solid rgba(0, 0, 0, 0.51);
+        text-align: center;
+    }
+
+    img {
+        border-radius: 50px;
+    }
+
+    #dish {
+        font-size: 18px;
+        font-family: 'Righteous', cursive;
+    }
+
+    p {
+        font-family: 'Chakra Petch', sans-serif;
+    }
+
+    a {
+        padding: 0 10px 0 10px;
+        font-size: 18px;
+        color: white;
+        text-decoration: underline dotted white;
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+    }
+
+    .Ingredients {
+        color: rgba(9, 9, 17, 0.64);
+        font-size: 18px;
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+        padding: 0 20px 0px 20px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+
+    .HealthLabels {
+        color: rgba(9, 9, 17, 0.64);
+        font-size: 18px;
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+        padding: 0 40px 0 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .Calories {
+        color: rgba(9, 9, 17, 0.64);
+        font-size: 18px;
+        background: rgba(66, 104, 63, 1);
+        border-radius: 15px;
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+}
+
+
+
